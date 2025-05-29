@@ -1,0 +1,41 @@
+.btn-game {
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #59c5e3;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  border: 0px;
+  width: 80px;
+}
+
+@media only screen and (min-width: 1036px) {
+  .btn-game {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1036px) {
+  .btn-game {
+    font-size: 28px;
+  }
+}
+
+.btn-provider {
+  border-width: 0px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px 0;
+  border-radius: 20px;
+}
+
+.btn-provider-selected {
+  border-width: 0px;
+  background-color: #222;
+  color: #fff;
+  padding: 30px 0;
+  border-radius: 20px;
+}
